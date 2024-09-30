@@ -37,13 +37,14 @@ public class Village {
 		return villageois[nbVillageois];
 	}
 
-	public void afficherVillageois(Village village) {
-//		System.out.println(
-//				"Dans le village du chef" + chef.getNom() + "vivent les legendaires gaulois:" + gaulois.getNom());
-//		for (int i = 0; i < nbVillageois; i++) {
-//			System.out.println("-" + gaulois.getNom());
-//		}
-
+	public void afficherVillageois() {
+		if (nbVillageois==0){
+			System.out.println("Il n'y a aucun villageois");
+		}else{
+			Systel.out.println("Dans le village du chef"+ chef.getNom() +"vivent les legendaires Gaulois:";
+			for (int i =0 ; i<nbVillageois; i++){
+				Systel.out.println("-" + villageois[i].getNom();}
+		}
 	}
 
 	public static void main(String[] arg) {
