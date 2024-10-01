@@ -24,4 +24,5 @@ public class Druide {
 	private String prendreParole() {
 		return "Le duide" + nom + ":";
 	}
+
 }

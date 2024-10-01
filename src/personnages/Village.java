@@ -38,12 +38,13 @@ public class Village {
 	}
 
 	public void afficherVillageois() {
-		if (nbVillageois==0){
+		if (nbVillageois == 0) {
 			System.out.println("Il n'y a aucun villageois");
-		}else{
-			Systel.out.println("Dans le village du chef"+ chef.getNom() +"vivent les legendaires Gaulois:";
-			for (int i =0 ; i<nbVillageois; i++){
-				Systel.out.println("-" + villageois[i].getNom();}
+		} else {
+			System.out.println("Dans le village du chef" + chef.getNom() + "vivent les legendaires Gaulois:");
+			for (int i = 0; i < nbVillageois; i++) {
+				System.out.println("-" + villageois[i].getNom());
+			}
 		}
 	}
 
